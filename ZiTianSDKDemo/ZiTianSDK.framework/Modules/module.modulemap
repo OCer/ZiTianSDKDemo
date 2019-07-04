@@ -1,0 +1,6 @@
+framework module ZiTianSDK {
+  umbrella header "ZiTianSDK.h"
+
+  export *
+  module * { export * }
+}

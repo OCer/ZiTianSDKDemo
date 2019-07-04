@@ -7,25 +7,148 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C642825A22CD9A79008FCD05 /* ZTRootNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C642825922CD9A79008FCD05 /* ZTRootNavigationController.m */; };
+		C642825D22CD9EF8008FCD05 /* ZTRootTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = C642825C22CD9EF8008FCD05 /* ZTRootTableView.m */; };
+		C642826022CDA130008FCD05 /* ZTGDTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C642825F22CDA130008FCD05 /* ZTGDTViewController.m */; };
+		C642826322CDA16A008FCD05 /* ZTBUViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C642826222CDA16A008FCD05 /* ZTBUViewController.m */; };
+		C642826622CDA181008FCD05 /* ZTGoogleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C642826522CDA181008FCD05 /* ZTGoogleViewController.m */; };
+		C642826822CDA229008FCD05 /* ZiTianSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C642826722CDA229008FCD05 /* ZiTianSDK.framework */; };
+		C642826922CDA229008FCD05 /* ZiTianSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C642826722CDA229008FCD05 /* ZiTianSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C642826D22CDA23C008FCD05 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C642826C22CDA23C008FCD05 /* Security.framework */; };
+		C642827022CDA3EA008FCD05 /* ZTGDTTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = C642826F22CDA3EA008FCD05 /* ZTGDTTableView.m */; };
+		C642827322CDA401008FCD05 /* ZTBUTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = C642827222CDA401008FCD05 /* ZTBUTableView.m */; };
+		C642827622CDA416008FCD05 /* ZTGoogleTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = C642827522CDA416008FCD05 /* ZTGoogleTableView.m */; };
+		C64282B422CDA6E2008FCD05 /* BUAdSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C642827922CDA6E2008FCD05 /* BUAdSDK.framework */; };
+		C64282B522CDA6E2008FCD05 /* BUAdSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C642827A22CDA6E2008FCD05 /* BUAdSDK.bundle */; };
+		C64282B622CDA6E2008FCD05 /* UMCommonLog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C642827C22CDA6E2008FCD05 /* UMCommonLog.framework */; };
+		C64282B722CDA6E2008FCD05 /* UMCommonLog.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C642827D22CDA6E2008FCD05 /* UMCommonLog.bundle */; };
+		C64282B822CDA6E2008FCD05 /* UTDID.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C642827E22CDA6E2008FCD05 /* UTDID.framework */; };
+		C64282B922CDA6E2008FCD05 /* UMCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C642827F22CDA6E2008FCD05 /* UMCommon.framework */; };
+		C64282BA22CDA6E2008FCD05 /* UMAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C642828022CDA6E2008FCD05 /* UMAnalytics.framework */; };
+		C64282BB22CDA6E2008FCD05 /* SecurityEnvSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C642828122CDA6E2008FCD05 /* SecurityEnvSDK.framework */; };
+		C64282BC22CDA6E2008FCD05 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C642828322CDA6E2008FCD05 /* GoogleMobileAds.framework */; };
+		C64282C722CDA6E2008FCD05 /* libGDTMobSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C64282AF22CDA6E2008FCD05 /* libGDTMobSDK.a */; };
+		C64282C822CDA6E2008FCD05 /* Bugly.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C64282B322CDA6E2008FCD05 /* Bugly.framework */; };
+		C64282CA22CDA6FA008FCD05 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C64282C922CDA6FA008FCD05 /* QuartzCore.framework */; };
+		C64282CC22CDA703008FCD05 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C64282CB22CDA703008FCD05 /* libxml2.tbd */; };
+		C64282CE22CDA70E008FCD05 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C64282CD22CDA70E008FCD05 /* libsqlite3.tbd */; };
+		C64282D022CDA721008FCD05 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C64282CF22CDA721008FCD05 /* libc++.tbd */; };
+		C64282D222CDA731008FCD05 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C64282D122CDA731008FCD05 /* SystemConfiguration.framework */; };
+		C64282D422CDA739008FCD05 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C64282D322CDA739008FCD05 /* libz.tbd */; };
+		C64282D622CDA742008FCD05 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C64282D522CDA742008FCD05 /* MobileCoreServices.framework */; };
+		C64282D822CDA749008FCD05 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C64282D722CDA749008FCD05 /* MediaPlayer.framework */; };
+		C64282DA22CDA751008FCD05 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C64282D922CDA751008FCD05 /* CoreMedia.framework */; };
+		C64282DC22CDA75B008FCD05 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C64282DB22CDA75B008FCD05 /* StoreKit.framework */; };
+		C64282DE22CDA763008FCD05 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C64282DD22CDA763008FCD05 /* WebKit.framework */; };
+		C64282E022CDA76B008FCD05 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C64282DF22CDA76B008FCD05 /* AVFoundation.framework */; };
+		C64282E222CDA774008FCD05 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C64282E122CDA774008FCD05 /* AdSupport.framework */; };
+		C64282E422CDA77E008FCD05 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C64282E322CDA77E008FCD05 /* CoreLocation.framework */; };
+		C64282E622CDA787008FCD05 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C64282E522CDA787008FCD05 /* CoreTelephony.framework */; };
 		C6B224E322CD95F300497FAB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C6B224E222CD95F300497FAB /* AppDelegate.m */; };
-		C6B224E622CD95F300497FAB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6B224E522CD95F300497FAB /* ViewController.m */; };
-		C6B224E922CD95F300497FAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6B224E722CD95F300497FAB /* Main.storyboard */; };
 		C6B224EB22CD95F400497FAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6B224EA22CD95F400497FAB /* Assets.xcassets */; };
 		C6B224EE22CD95F400497FAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6B224EC22CD95F400497FAB /* LaunchScreen.storyboard */; };
 		C6B224F122CD95F400497FAB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C6B224F022CD95F400497FAB /* main.m */; };
+		C6B2250022CD97E500497FAB /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6B224FF22CD97E500497FAB /* BaseViewController.m */; };
+		C6B2250322CD982A00497FAB /* BaseDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6B2250222CD982A00497FAB /* BaseDetailViewController.m */; };
+		C6B2250622CD984E00497FAB /* BaseTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = C6B2250522CD984E00497FAB /* BaseTableView.m */; };
+		C6B2250922CD986A00497FAB /* BaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C6B2250822CD986A00497FAB /* BaseTableViewCell.m */; };
+		C6B2251222CD9A2200497FAB /* ZTRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6B2251122CD9A2200497FAB /* ZTRootViewController.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		C642826A22CDA229008FCD05 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				C642826922CDA229008FCD05 /* ZiTianSDK.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		C642825822CD9A79008FCD05 /* ZTRootNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZTRootNavigationController.h; sourceTree = "<group>"; };
+		C642825922CD9A79008FCD05 /* ZTRootNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZTRootNavigationController.m; sourceTree = "<group>"; };
+		C642825B22CD9EF8008FCD05 /* ZTRootTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZTRootTableView.h; sourceTree = "<group>"; };
+		C642825C22CD9EF8008FCD05 /* ZTRootTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZTRootTableView.m; sourceTree = "<group>"; };
+		C642825E22CDA130008FCD05 /* ZTGDTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZTGDTViewController.h; sourceTree = "<group>"; };
+		C642825F22CDA130008FCD05 /* ZTGDTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZTGDTViewController.m; sourceTree = "<group>"; };
+		C642826122CDA16A008FCD05 /* ZTBUViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZTBUViewController.h; sourceTree = "<group>"; };
+		C642826222CDA16A008FCD05 /* ZTBUViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZTBUViewController.m; sourceTree = "<group>"; };
+		C642826422CDA181008FCD05 /* ZTGoogleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZTGoogleViewController.h; sourceTree = "<group>"; };
+		C642826522CDA181008FCD05 /* ZTGoogleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZTGoogleViewController.m; sourceTree = "<group>"; };
+		C642826722CDA229008FCD05 /* ZiTianSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ZiTianSDK.framework; path = ZiTianSDKDemo/ZiTianSDK.framework; sourceTree = "<group>"; };
+		C642826C22CDA23C008FCD05 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		C642826E22CDA3EA008FCD05 /* ZTGDTTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZTGDTTableView.h; sourceTree = "<group>"; };
+		C642826F22CDA3EA008FCD05 /* ZTGDTTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZTGDTTableView.m; sourceTree = "<group>"; };
+		C642827122CDA401008FCD05 /* ZTBUTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZTBUTableView.h; sourceTree = "<group>"; };
+		C642827222CDA401008FCD05 /* ZTBUTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZTBUTableView.m; sourceTree = "<group>"; };
+		C642827422CDA416008FCD05 /* ZTGoogleTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZTGoogleTableView.h; sourceTree = "<group>"; };
+		C642827522CDA416008FCD05 /* ZTGoogleTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZTGoogleTableView.m; sourceTree = "<group>"; };
+		C642827922CDA6E2008FCD05 /* BUAdSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BUAdSDK.framework; sourceTree = "<group>"; };
+		C642827A22CDA6E2008FCD05 /* BUAdSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = BUAdSDK.bundle; sourceTree = "<group>"; };
+		C642827C22CDA6E2008FCD05 /* UMCommonLog.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UMCommonLog.framework; sourceTree = "<group>"; };
+		C642827D22CDA6E2008FCD05 /* UMCommonLog.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = UMCommonLog.bundle; sourceTree = "<group>"; };
+		C642827E22CDA6E2008FCD05 /* UTDID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UTDID.framework; sourceTree = "<group>"; };
+		C642827F22CDA6E2008FCD05 /* UMCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UMCommon.framework; sourceTree = "<group>"; };
+		C642828022CDA6E2008FCD05 /* UMAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UMAnalytics.framework; sourceTree = "<group>"; };
+		C642828122CDA6E2008FCD05 /* SecurityEnvSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SecurityEnvSDK.framework; sourceTree = "<group>"; };
+		C642828322CDA6E2008FCD05 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
+		C642829F22CDA6E2008FCD05 /* GDTNativeExpressAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTNativeExpressAdView.h; sourceTree = "<group>"; };
+		C64282A022CDA6E2008FCD05 /* GDTMobBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTMobBannerView.h; sourceTree = "<group>"; };
+		C64282A122CDA6E2008FCD05 /* GDTUnifiedBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTUnifiedBannerView.h; sourceTree = "<group>"; };
+		C64282A222CDA6E2008FCD05 /* GDTNativeAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTNativeAd.h; sourceTree = "<group>"; };
+		C64282A322CDA6E2008FCD05 /* GDTSDKConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTSDKConfig.h; sourceTree = "<group>"; };
+		C64282A422CDA6E2008FCD05 /* GDTMobInterstitial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTMobInterstitial.h; sourceTree = "<group>"; };
+		C64282A522CDA6E2008FCD05 /* GDTRewardVideoAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTRewardVideoAd.h; sourceTree = "<group>"; };
+		C64282A622CDA6E2008FCD05 /* GDTSplashAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTSplashAd.h; sourceTree = "<group>"; };
+		C64282A722CDA6E2008FCD05 /* GDTNativeExpressAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTNativeExpressAd.h; sourceTree = "<group>"; };
+		C64282A822CDA6E2008FCD05 /* GDTLogoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTLogoView.h; sourceTree = "<group>"; };
+		C64282A922CDA6E2008FCD05 /* GDTMediaView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTMediaView.h; sourceTree = "<group>"; };
+		C64282AA22CDA6E2008FCD05 /* GDTUnifiedNativeAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTUnifiedNativeAdView.h; sourceTree = "<group>"; };
+		C64282AB22CDA6E2008FCD05 /* GDTHybridAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTHybridAd.h; sourceTree = "<group>"; };
+		C64282AC22CDA6E2008FCD05 /* GDTUnifiedNativeAdDataObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTUnifiedNativeAdDataObject.h; sourceTree = "<group>"; };
+		C64282AD22CDA6E2008FCD05 /* GDTSDKDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTSDKDefines.h; sourceTree = "<group>"; };
+		C64282AE22CDA6E2008FCD05 /* GDTUnifiedInterstitialAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTUnifiedInterstitialAd.h; sourceTree = "<group>"; };
+		C64282AF22CDA6E2008FCD05 /* libGDTMobSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGDTMobSDK.a; sourceTree = "<group>"; };
+		C64282B022CDA6E2008FCD05 /* GDTUnifiedNativeAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTUnifiedNativeAd.h; sourceTree = "<group>"; };
+		C64282B122CDA6E2008FCD05 /* GDTVideoConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTVideoConfig.h; sourceTree = "<group>"; };
+		C64282B322CDA6E2008FCD05 /* Bugly.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bugly.framework; sourceTree = "<group>"; };
+		C64282C922CDA6FA008FCD05 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C64282CB22CDA703008FCD05 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		C64282CD22CDA70E008FCD05 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		C64282CF22CDA721008FCD05 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		C64282D122CDA731008FCD05 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		C64282D322CDA739008FCD05 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		C64282D522CDA742008FCD05 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		C64282D722CDA749008FCD05 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		C64282D922CDA751008FCD05 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		C64282DB22CDA75B008FCD05 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		C64282DD22CDA763008FCD05 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		C64282DF22CDA76B008FCD05 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		C64282E122CDA774008FCD05 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		C64282E322CDA77E008FCD05 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		C64282E522CDA787008FCD05 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		C6B224DE22CD95F300497FAB /* ZiTianSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZiTianSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6B224E122CD95F300497FAB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C6B224E222CD95F300497FAB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C6B224E422CD95F300497FAB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C6B224E522CD95F300497FAB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		C6B224E822CD95F300497FAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C6B224EA22CD95F400497FAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C6B224ED22CD95F400497FAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C6B224EF22CD95F400497FAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C6B224F022CD95F400497FAB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C6B224FE22CD97E500497FAB /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		C6B224FF22CD97E500497FAB /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		C6B2250122CD982A00497FAB /* BaseDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseDetailViewController.h; sourceTree = "<group>"; };
+		C6B2250222CD982A00497FAB /* BaseDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseDetailViewController.m; sourceTree = "<group>"; };
+		C6B2250422CD984E00497FAB /* BaseTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseTableView.h; sourceTree = "<group>"; };
+		C6B2250522CD984E00497FAB /* BaseTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseTableView.m; sourceTree = "<group>"; };
+		C6B2250722CD986A00497FAB /* BaseTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseTableViewCell.h; sourceTree = "<group>"; };
+		C6B2250822CD986A00497FAB /* BaseTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewCell.m; sourceTree = "<group>"; };
+		C6B2251022CD9A2200497FAB /* ZTRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZTRootViewController.h; sourceTree = "<group>"; };
+		C6B2251122CD9A2200497FAB /* ZTRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZTRootViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +156,179 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C64282E622CDA787008FCD05 /* CoreTelephony.framework in Frameworks */,
+				C64282E422CDA77E008FCD05 /* CoreLocation.framework in Frameworks */,
+				C64282E222CDA774008FCD05 /* AdSupport.framework in Frameworks */,
+				C64282E022CDA76B008FCD05 /* AVFoundation.framework in Frameworks */,
+				C64282DE22CDA763008FCD05 /* WebKit.framework in Frameworks */,
+				C64282DC22CDA75B008FCD05 /* StoreKit.framework in Frameworks */,
+				C64282DA22CDA751008FCD05 /* CoreMedia.framework in Frameworks */,
+				C64282D822CDA749008FCD05 /* MediaPlayer.framework in Frameworks */,
+				C64282D622CDA742008FCD05 /* MobileCoreServices.framework in Frameworks */,
+				C64282D422CDA739008FCD05 /* libz.tbd in Frameworks */,
+				C64282D222CDA731008FCD05 /* SystemConfiguration.framework in Frameworks */,
+				C64282D022CDA721008FCD05 /* libc++.tbd in Frameworks */,
+				C64282CE22CDA70E008FCD05 /* libsqlite3.tbd in Frameworks */,
+				C64282CC22CDA703008FCD05 /* libxml2.tbd in Frameworks */,
+				C64282CA22CDA6FA008FCD05 /* QuartzCore.framework in Frameworks */,
+				C64282BC22CDA6E2008FCD05 /* GoogleMobileAds.framework in Frameworks */,
+				C642826D22CDA23C008FCD05 /* Security.framework in Frameworks */,
+				C642826822CDA229008FCD05 /* ZiTianSDK.framework in Frameworks */,
+				C64282C722CDA6E2008FCD05 /* libGDTMobSDK.a in Frameworks */,
+				C64282B622CDA6E2008FCD05 /* UMCommonLog.framework in Frameworks */,
+				C64282C822CDA6E2008FCD05 /* Bugly.framework in Frameworks */,
+				C64282BA22CDA6E2008FCD05 /* UMAnalytics.framework in Frameworks */,
+				C64282B922CDA6E2008FCD05 /* UMCommon.framework in Frameworks */,
+				C64282B822CDA6E2008FCD05 /* UTDID.framework in Frameworks */,
+				C64282B422CDA6E2008FCD05 /* BUAdSDK.framework in Frameworks */,
+				C64282BB22CDA6E2008FCD05 /* SecurityEnvSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C642826B22CDA23C008FCD05 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C64282E522CDA787008FCD05 /* CoreTelephony.framework */,
+				C64282E322CDA77E008FCD05 /* CoreLocation.framework */,
+				C64282E122CDA774008FCD05 /* AdSupport.framework */,
+				C64282DF22CDA76B008FCD05 /* AVFoundation.framework */,
+				C64282DD22CDA763008FCD05 /* WebKit.framework */,
+				C64282DB22CDA75B008FCD05 /* StoreKit.framework */,
+				C64282D922CDA751008FCD05 /* CoreMedia.framework */,
+				C64282D722CDA749008FCD05 /* MediaPlayer.framework */,
+				C64282D522CDA742008FCD05 /* MobileCoreServices.framework */,
+				C64282D322CDA739008FCD05 /* libz.tbd */,
+				C64282D122CDA731008FCD05 /* SystemConfiguration.framework */,
+				C64282CF22CDA721008FCD05 /* libc++.tbd */,
+				C64282CD22CDA70E008FCD05 /* libsqlite3.tbd */,
+				C64282CB22CDA703008FCD05 /* libxml2.tbd */,
+				C64282C922CDA6FA008FCD05 /* QuartzCore.framework */,
+				C642826C22CDA23C008FCD05 /* Security.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C642827722CDA6E2008FCD05 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				C642827822CDA6E2008FCD05 /* BUAdSDK */,
+				C642827B22CDA6E2008FCD05 /* umeng */,
+				C642828222CDA6E2008FCD05 /* Google */,
+				C642829E22CDA6E2008FCD05 /* GDT */,
+				C64282B222CDA6E2008FCD05 /* Bugly */,
+			);
+			name = lib;
+			path = ZiTianSDKDemo/lib;
+			sourceTree = "<group>";
+		};
+		C642827822CDA6E2008FCD05 /* BUAdSDK */ = {
+			isa = PBXGroup;
+			children = (
+				C642827922CDA6E2008FCD05 /* BUAdSDK.framework */,
+				C642827A22CDA6E2008FCD05 /* BUAdSDK.bundle */,
+			);
+			path = BUAdSDK;
+			sourceTree = "<group>";
+		};
+		C642827B22CDA6E2008FCD05 /* umeng */ = {
+			isa = PBXGroup;
+			children = (
+				C642827C22CDA6E2008FCD05 /* UMCommonLog.framework */,
+				C642827D22CDA6E2008FCD05 /* UMCommonLog.bundle */,
+				C642827E22CDA6E2008FCD05 /* UTDID.framework */,
+				C642827F22CDA6E2008FCD05 /* UMCommon.framework */,
+				C642828022CDA6E2008FCD05 /* UMAnalytics.framework */,
+				C642828122CDA6E2008FCD05 /* SecurityEnvSDK.framework */,
+			);
+			path = umeng;
+			sourceTree = "<group>";
+		};
+		C642828222CDA6E2008FCD05 /* Google */ = {
+			isa = PBXGroup;
+			children = (
+				C642828322CDA6E2008FCD05 /* GoogleMobileAds.framework */,
+			);
+			path = Google;
+			sourceTree = "<group>";
+		};
+		C642829E22CDA6E2008FCD05 /* GDT */ = {
+			isa = PBXGroup;
+			children = (
+				C642829F22CDA6E2008FCD05 /* GDTNativeExpressAdView.h */,
+				C64282A022CDA6E2008FCD05 /* GDTMobBannerView.h */,
+				C64282A122CDA6E2008FCD05 /* GDTUnifiedBannerView.h */,
+				C64282A222CDA6E2008FCD05 /* GDTNativeAd.h */,
+				C64282A322CDA6E2008FCD05 /* GDTSDKConfig.h */,
+				C64282A422CDA6E2008FCD05 /* GDTMobInterstitial.h */,
+				C64282A522CDA6E2008FCD05 /* GDTRewardVideoAd.h */,
+				C64282A622CDA6E2008FCD05 /* GDTSplashAd.h */,
+				C64282A722CDA6E2008FCD05 /* GDTNativeExpressAd.h */,
+				C64282A822CDA6E2008FCD05 /* GDTLogoView.h */,
+				C64282A922CDA6E2008FCD05 /* GDTMediaView.h */,
+				C64282AA22CDA6E2008FCD05 /* GDTUnifiedNativeAdView.h */,
+				C64282AB22CDA6E2008FCD05 /* GDTHybridAd.h */,
+				C64282AC22CDA6E2008FCD05 /* GDTUnifiedNativeAdDataObject.h */,
+				C64282AD22CDA6E2008FCD05 /* GDTSDKDefines.h */,
+				C64282AE22CDA6E2008FCD05 /* GDTUnifiedInterstitialAd.h */,
+				C64282AF22CDA6E2008FCD05 /* libGDTMobSDK.a */,
+				C64282B022CDA6E2008FCD05 /* GDTUnifiedNativeAd.h */,
+				C64282B122CDA6E2008FCD05 /* GDTVideoConfig.h */,
+			);
+			path = GDT;
+			sourceTree = "<group>";
+		};
+		C64282B222CDA6E2008FCD05 /* Bugly */ = {
+			isa = PBXGroup;
+			children = (
+				C64282B322CDA6E2008FCD05 /* Bugly.framework */,
+			);
+			path = Bugly;
+			sourceTree = "<group>";
+		};
+		C64282E922CDD45B008FCD05 /* 广点通 */ = {
+			isa = PBXGroup;
+			children = (
+				C642825E22CDA130008FCD05 /* ZTGDTViewController.h */,
+				C642825F22CDA130008FCD05 /* ZTGDTViewController.m */,
+				C642826E22CDA3EA008FCD05 /* ZTGDTTableView.h */,
+				C642826F22CDA3EA008FCD05 /* ZTGDTTableView.m */,
+			);
+			name = "广点通";
+			sourceTree = "<group>";
+		};
+		C64282EC22CDD484008FCD05 /* 穿山甲 */ = {
+			isa = PBXGroup;
+			children = (
+				C642826122CDA16A008FCD05 /* ZTBUViewController.h */,
+				C642826222CDA16A008FCD05 /* ZTBUViewController.m */,
+				C642827122CDA401008FCD05 /* ZTBUTableView.h */,
+				C642827222CDA401008FCD05 /* ZTBUTableView.m */,
+			);
+			name = "穿山甲";
+			sourceTree = "<group>";
+		};
+		C64282F122CDD4C8008FCD05 /* 谷歌 */ = {
+			isa = PBXGroup;
+			children = (
+				C642826422CDA181008FCD05 /* ZTGoogleViewController.h */,
+				C642826522CDA181008FCD05 /* ZTGoogleViewController.m */,
+				C642827422CDA416008FCD05 /* ZTGoogleTableView.h */,
+				C642827522CDA416008FCD05 /* ZTGoogleTableView.m */,
+			);
+			name = "谷歌";
+			sourceTree = "<group>";
+		};
 		C6B224D522CD95F300497FAB = {
 			isa = PBXGroup;
 			children = (
+				C642827722CDA6E2008FCD05 /* lib */,
+				C642826722CDA229008FCD05 /* ZiTianSDK.framework */,
 				C6B224E022CD95F300497FAB /* ZiTianSDKDemo */,
 				C6B224DF22CD95F300497FAB /* Products */,
+				C642826B22CDA23C008FCD05 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,15 +345,61 @@
 			children = (
 				C6B224E122CD95F300497FAB /* AppDelegate.h */,
 				C6B224E222CD95F300497FAB /* AppDelegate.m */,
-				C6B224E422CD95F300497FAB /* ViewController.h */,
-				C6B224E522CD95F300497FAB /* ViewController.m */,
-				C6B224E722CD95F300497FAB /* Main.storyboard */,
+				C642825822CD9A79008FCD05 /* ZTRootNavigationController.h */,
+				C642825922CD9A79008FCD05 /* ZTRootNavigationController.m */,
+				C6B2251022CD9A2200497FAB /* ZTRootViewController.h */,
+				C6B2251122CD9A2200497FAB /* ZTRootViewController.m */,
+				C642825B22CD9EF8008FCD05 /* ZTRootTableView.h */,
+				C642825C22CD9EF8008FCD05 /* ZTRootTableView.m */,
+				C64282E922CDD45B008FCD05 /* 广点通 */,
+				C64282EC22CDD484008FCD05 /* 穿山甲 */,
+				C64282F122CDD4C8008FCD05 /* 谷歌 */,
+				C6B2250C22CD99B300497FAB /* base */,
+				C6B224FD22CD971300497FAB /* Supporting Files */,
+			);
+			path = ZiTianSDKDemo;
+			sourceTree = "<group>";
+		};
+		C6B224FD22CD971300497FAB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
 				C6B224EA22CD95F400497FAB /* Assets.xcassets */,
 				C6B224EC22CD95F400497FAB /* LaunchScreen.storyboard */,
 				C6B224EF22CD95F400497FAB /* Info.plist */,
 				C6B224F022CD95F400497FAB /* main.m */,
 			);
-			path = ZiTianSDKDemo;
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C6B2250C22CD99B300497FAB /* base */ = {
+			isa = PBXGroup;
+			children = (
+				C6B2250F22CD99DD00497FAB /* view */,
+				C6B2250E22CD99CF00497FAB /* controller */,
+			);
+			name = base;
+			sourceTree = "<group>";
+		};
+		C6B2250E22CD99CF00497FAB /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				C6B224FE22CD97E500497FAB /* BaseViewController.h */,
+				C6B224FF22CD97E500497FAB /* BaseViewController.m */,
+				C6B2250122CD982A00497FAB /* BaseDetailViewController.h */,
+				C6B2250222CD982A00497FAB /* BaseDetailViewController.m */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		C6B2250F22CD99DD00497FAB /* view */ = {
+			isa = PBXGroup;
+			children = (
+				C6B2250422CD984E00497FAB /* BaseTableView.h */,
+				C6B2250522CD984E00497FAB /* BaseTableView.m */,
+				C6B2250722CD986A00497FAB /* BaseTableViewCell.h */,
+				C6B2250822CD986A00497FAB /* BaseTableViewCell.m */,
+			);
+			name = view;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -81,6 +412,7 @@
 				C6B224DA22CD95F300497FAB /* Sources */,
 				C6B224DB22CD95F300497FAB /* Frameworks */,
 				C6B224DC22CD95F300497FAB /* Resources */,
+				C642826A22CDA229008FCD05 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -129,8 +461,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C6B224EE22CD95F400497FAB /* LaunchScreen.storyboard in Resources */,
+				C64282B522CDA6E2008FCD05 /* BUAdSDK.bundle in Resources */,
 				C6B224EB22CD95F400497FAB /* Assets.xcassets in Resources */,
-				C6B224E922CD95F300497FAB /* Main.storyboard in Resources */,
+				C64282B722CDA6E2008FCD05 /* UMCommonLog.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,23 +474,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C6B224E622CD95F300497FAB /* ViewController.m in Sources */,
+				C642827022CDA3EA008FCD05 /* ZTGDTTableView.m in Sources */,
+				C6B2251222CD9A2200497FAB /* ZTRootViewController.m in Sources */,
+				C6B2250922CD986A00497FAB /* BaseTableViewCell.m in Sources */,
 				C6B224F122CD95F400497FAB /* main.m in Sources */,
+				C642826322CDA16A008FCD05 /* ZTBUViewController.m in Sources */,
+				C6B2250022CD97E500497FAB /* BaseViewController.m in Sources */,
+				C642826022CDA130008FCD05 /* ZTGDTViewController.m in Sources */,
+				C6B2250322CD982A00497FAB /* BaseDetailViewController.m in Sources */,
+				C642827622CDA416008FCD05 /* ZTGoogleTableView.m in Sources */,
+				C642825A22CD9A79008FCD05 /* ZTRootNavigationController.m in Sources */,
+				C6B2250622CD984E00497FAB /* BaseTableView.m in Sources */,
+				C642826622CDA181008FCD05 /* ZTGoogleViewController.m in Sources */,
 				C6B224E322CD95F300497FAB /* AppDelegate.m in Sources */,
+				C642827322CDA401008FCD05 /* ZTBUTableView.m in Sources */,
+				C642825D22CD9EF8008FCD05 /* ZTRootTableView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		C6B224E722CD95F300497FAB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C6B224E822CD95F300497FAB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C6B224EC22CD95F400497FAB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -286,14 +623,30 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DL3283QHPX;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ZiTianSDKDemo",
+					"$(PROJECT_DIR)/ZiTianSDKDemo/lib/BUAdSDK",
+					"$(PROJECT_DIR)/ZiTianSDKDemo/lib/umeng",
+					"$(PROJECT_DIR)/ZiTianSDKDemo/lib/Google",
+					"$(PROJECT_DIR)/ZiTianSDKDemo/lib/Bugly",
+				);
 				INFOPLIST_FILE = ZiTianSDKDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ZiTianSDKDemo/lib/GDT",
+				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Cer.ZiTianSDKDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -302,14 +655,30 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DL3283QHPX;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ZiTianSDKDemo",
+					"$(PROJECT_DIR)/ZiTianSDKDemo/lib/BUAdSDK",
+					"$(PROJECT_DIR)/ZiTianSDKDemo/lib/umeng",
+					"$(PROJECT_DIR)/ZiTianSDKDemo/lib/Google",
+					"$(PROJECT_DIR)/ZiTianSDKDemo/lib/Bugly",
+				);
 				INFOPLIST_FILE = ZiTianSDKDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ZiTianSDKDemo/lib/GDT",
+				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Cer.ZiTianSDKDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
